@@ -1,0 +1,82 @@
+@charset'utf-8';
+#aside{
+	position:fixed;
+	top:0;
+	right:0;
+	width:30px;
+	height:100%;
+	background-color:#202020;
+	
+}
+.aside-wrap{
+	margin-top:70px;
+}
+.aside-wrap li{
+	display:block;
+	padding:5px;
+	text-align:center;border-bottom:1px solid #ddd;
+}
+.aside-wrap li.h90{
+	height:80px;
+
+}
+.aside-wrap li.h80{
+	height:70px;
+}
+.aside-wrap li a{
+	display:inline-block;
+	color:#fff;
+	padding-bottom:3px;
+	
+}
+.aside-wrap li:hover{
+	padding-top:6px;
+	margin-top:-1px;
+	border-bottom-color:transparent;
+	background-color:#ef2f23;
+}
+.aside-wrap li i{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url('../images/public-image/xue.png') no-repeat;
+}
+.aside-wrap li i.car{
+	background-position:-272px -135px;
+}
+.aside-wrap li i.coupon{
+	background-position:-272px -163px;
+}
+.aside-wrap li i.wallet{
+	background-position:-272px -222px;
+}
+.aside-wrap li i.footprint{
+	background-position:-272px -195px;
+}
+.aside-wrap li i.code{
+	background:url('../images/public-image/code.png') no-repeat 3px 4px;
+}
+.aside-wrap li.h40 img{
+	position:absolute;
+	display:none;
+	top:-10px;
+	left:-160px;
+	width:166px;
+	height:200px;
+}
+.aside-wrap li.h40:hover  img{
+	display:block;
+	z-index:100000;
+}
+.aside-wrap li.re-top{
+	position:absolute;
+	bottom:40px;
+	border-top:1px solid #eee;
+	border-bottom:0;
+}
+.aside-wrap li.re-top:hover{
+	border-top-color:transparent;
+}
+.aside-wrap li i.go-top{
+	background-position:-272px -283px;
+}

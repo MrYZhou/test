@@ -1,0 +1,104 @@
+@charset'utf-8';
+.footer{
+	width:100%;
+	padding:50px 0;
+}
+.footer .foot-content{
+	width:1200px;
+	height:235px;
+	margin:0 auto;
+}
+.footer .foot-content .content-top{
+	width:1200px;
+	margin-left:20px;
+}
+.footer .foot-content .content-top div{
+	float:left;
+	width:300px;
+	height:100px;
+}
+.footer .foot-content .content-top > div > h4{
+	display:block;
+	height:25px;
+	line-height:25px;
+	margin:0 0 8px 36px;
+	font-size:14px;
+	color:#D6D6D6;
+}
+
+.footer .foot-content .content-top ul{
+	width:234px;
+}
+.footer .foot-content .content-top li{
+	float:left;
+	display:inline-block;
+	width:80px;
+	height:20px;
+	line-height:20px;
+}
+.footer .foot-content .content-top .spe li{
+	width:60px;
+}
+.footer .foot-content .content-top li a:hover {
+	color:#FB94A9;
+}
+
+/*footer-middle start*/
+.foot-content .content-middle{
+	margin-bottom:8px;
+	border-top:2px solid #FF5777;
+	border-bottom:1px solid #ddd;
+}
+.foot-content .content-middle ul{
+	padding:10px 0;
+}
+.foot-content .content-middle li{
+	float:left;
+}
+.foot-content .content-middle li a:after{
+	position:absolute;
+	top:4px;
+	left:45px;
+	content:'';
+	width:1px;
+	height:12px;
+	background-color:#ddd;
+}
+/*伪元素设置小线条方法不好控制由 a内容撑开宽度的情况*/
+.foot-content .content-middle li a.spe-f:after{
+	left:70px;
+}
+.foot-content .content-middle li a.spe-s:after{
+	left:35px;
+}
+
+.foot-content .content-middle li a{
+	position:relative;
+	display:inline-block;
+	margin:0 10px;
+	color:#666;
+}
+.foot-content .content-middle li .spe{
+	margin-left:0;
+}
+.foot-content .content-middle li a:hover{
+	color:#f57;
+}
+
+/*footer-bottom start*/
+.foot-content .content-bottom ul{
+	
+}
+.foot-content .content-bottom li{
+	float:left;	
+	display:inline-block;
+	width:80px;
+	height:20px;
+}
+.foot-content .content-bottom .c999 a,span,b{
+	margin-top:5px;
+	color:#999;
+}
+.foot-content .content-bottom b{
+	margin:0 5px;
+}
